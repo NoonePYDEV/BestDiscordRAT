@@ -36,7 +36,7 @@ git clone https://github.com/NoonePYDEV/BestDiscordRAT
 cd BestDiscordRAT
 ```
 
-Create and activate a Python virtual environment:
+Create and activate a Python virtual environment if not installed :
 ```bash
 python -m venv venv
 # Windows

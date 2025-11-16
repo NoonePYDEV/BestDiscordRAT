@@ -1,42 +1,41 @@
 # BestDiscordRAT  
-**Discord Remote Access Tool — Educational & Preventive Purpose**
+**Outil d'accès à distance via Discord — À but éducatif et préventif**
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
+## Table des matières
+- [À propos](#à-propos)
+- [Fonctionnalités](#fonctionnalités)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Ethical & Safety Notice](#ethical--safety-notice)
-- [Screenshots](#screenshots)
-- [License](#license)
-- [Disclaimer](#disclaimer)
+- [Utilisation](#utilisation)
+- [Captures d'écran](#captures-décran)
+- [Licence](#licence)
+- [Avertissement](#avertissement)
 
-## About  
-BestDiscordRAT is a Python-based demonstration tool that showcases how a Discord-powered Remote Access Tool (RAT) operates.  
-It is designed **exclusively for educational, defensive, and preventive cybersecurity purposes** in controlled environments.  
-The project aims to help students, researchers, and security enthusiasts understand RAT behavior, strengthen detection skills, and improve defensive strategies.
+## À propos
+BestDiscordRAT est un outil de démonstration écrit en Python destiné à illustrer le fonctionnement d'un Remote Access Tool (RAT) utilisant Discord comme canal de commande et de contrôle.  
+Il est conçu **exclusivement pour des objectifs éducatifs, défensifs et préventifs** dans des environnements contrôlés.  
+Le projet vise à aider les étudiants, chercheurs et passionnés en cybersécurité à comprendre le comportement des RAT, améliorer leurs compétences en détection, et renforcer leurs stratégies défensives.
 
-## Features  
-- Discord bot used as Command & Control  
-- Graphical user interface for building (`GUI.py`)  
-- Automatic builder (`Builder.bat`)  
-- Easy setup script (`Setup.bat`)  
-- Remote command execution  
-- Screenshot capture  
-- File upload & download  
-- System information retrieval  
-- Modular architecture for adding or removing features  
+## Fonctionnalités
+- Bot Discord utilisé comme Command & Control (C2)  
+- Interface graphique pour la construction (`GUI.py`)  
+- Builder automatique (`Builder.bat`)  
+- Script d'installation rapide (`Setup.bat`)  
+- Exécution de commandes à distance  
+- Capture d'écran  
+- Téléversement et téléchargement de fichiers  
+- Récupération d'informations système  
+- Architecture modulaire permettant d'ajouter ou retirer des fonctionnalités  
 
-And many more, see [Screenshots](#screenshots).
+Et bien plus encore, voir [Captures d'écran](#captures-décran).
 
-## Installation  
-Clone the repository:
+## Installation
+Cloner le dépôt :
 ```bash
 git clone https://github.com/NoonePYDEV/BestDiscordRAT
 cd BestDiscordRAT
 ```
 
-Create and activate a Python virtual environment if not installed :
+Créer et activer un environnement virtuel Python si nécessaire :
 ```bash
 python -m venv venv
 # Windows
@@ -45,43 +44,33 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-Install dependencies:
+Installer les dépendances :
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage  
-Run the GUI:
+## Utilisation
+Lancer l'interface graphique (GUI) :
 ```bash
 python GUI.py
 ```
 
-Build the executable:
+Construire l'exécutable :
 ```bash
 Builder.bat
 ```
 
-Configure your Discord bot token, channel IDs, and other parameters inside the configuration files or directly in the script (depending on your setup).
+Configurer votre token Discord, les IDs de channels, ainsi que les autres paramètres dans les fichiers de configuration ou directement dans le script (selon votre configuration).
 
-## Screenshots
+## Captures d'écran
 
 ![Builder](./Screenshots/Builder.png)
 <br>
 ![Emergency Tokens](./Screenshots/EmTokens.png)
 
-## Ethical & Safety Notice  
-This project is strictly intended for:  
-- Security education  
-- Malware analysis practice  
-- Defensive research  
-- Awareness and prevention  
+## Licence
+Ce projet est publié sous la licence incluse dans le dépôt.
 
-Do **not** deploy this tool on any machine you do not own or manage.  
-Unauthorized use is illegal and strictly prohibited.
-
-## License  
-This project is released under the license included in the repository.
-
-## ⚠️ Disclaimer  
-The author is **not responsible** for any misuse or damage caused by this tool.  
-Use responsibly, ethically, and in compliance with applicable laws.
+## ⚠️ Avertissement
+L'auteur **n'est pas responsable** d'un mauvais usage ou de dommages causés par cet outil.  
+Utilisez-le de manière responsable, éthique et conforme à la loi.

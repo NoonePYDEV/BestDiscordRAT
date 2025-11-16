@@ -12,6 +12,13 @@ import re
 import webbrowser
 import ctypes
 
+if not os.path.exists("./Output"):
+    os.makedirs("./Output", exist_ok=True)
+if not os.path.exists("./Configs"):
+    os.makedirs("./Configs", exist_ok=True)
+if not os.path.exists("./Temp"):
+    os.makedirs("./Temp", exist_ok=True)
+    
 scaleFactor = ctypes.windll.shcore.GetScaleFactorForDevice(0) / 100
 
 position = 15
@@ -480,5 +487,6 @@ if not os.path.exists("./Configs/opened.open"):
 
     with open('./Configs/opened.open', "w", encoding='utf-8') as opf:
         opf.write("opened")
+
 
 window.mainloop()

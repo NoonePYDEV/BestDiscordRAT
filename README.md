@@ -67,6 +67,7 @@ Configurer votre token Discord, les IDs de channels, ainsi que les autres param�
 ![Builder](./Screenshots/Builder.png)
 <br>
 ![Emergency Tokens](./Screenshots/EmTokens.png)
+![Commandes](./Screenshots/Commands.gif)
 
 ## Licence
 Ce projet est publié sous la licence incluse dans le dépôt.
